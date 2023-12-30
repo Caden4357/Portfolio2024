@@ -1,0 +1,18 @@
+main{
+    padding: 10px;
+}
+.dev-icon-container{
+    width: 75%;
+    /* border: 2px solid; */
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.dev-icon{
+    background-color: rgba(248, 248, 248, 0.554);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 4px rgba(163,181,172,1);
+}
