@@ -7,10 +7,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+#root{
+    margin: 0 auto;
+    width: 75%; 
+    /* border: 2px solid black; */
+}
 body{
     font-family:Murphy;
-    margin: 0 auto;
-    width: 1270px;
+    /* margin: 0 auto;
+    width: 75%; */
     /* border: 2px solid black; */
 }
 .header-main{
@@ -25,4 +30,18 @@ body{
 }
 .text-center{
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    #root{
+        width: 100%;
+    }
+    /* .header-main{
+        font-size: 32px;
+        padding-left: 20px;
+    }
+    .right{
+        padding-right: 20px;
+    } */
+    
 }

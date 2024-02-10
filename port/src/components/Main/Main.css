@@ -29,3 +29,9 @@ main{
 .flip-card:hover .flip-card-inner{
     transform: rotateY(180deg);
 }
+
+@media (max-width: 845px){
+    .profile-desc-container{
+        flex-direction: column-reverse;
+    }
+}
