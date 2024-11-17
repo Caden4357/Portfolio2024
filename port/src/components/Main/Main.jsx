@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import homeVideo from '../../assets/homepage2.mp4'
+import homeVideo from '../../assets/homepage.mp4'
 import { animate, motion } from 'framer-motion'
 import './Main.css'
 import SkillsImage from './SkillsImage';
@@ -10,8 +10,9 @@ const Main = (props) => {
     return (
         <main className=''>
             <div className='profile-desc-container flex justify-center'>
-                <ProfilePic />
-                <Description />
+                <video src={homeVideo} autoPlay={true}></video>
+                {/* <ProfilePic />
+                <Description /> */}
             </div>
             {/* <div className='dev-icon-container'>
                 <SkillsImage src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg' skill={'HTML'} stars={5}/>

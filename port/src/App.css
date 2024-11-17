@@ -14,6 +14,8 @@
 }
 body{
     font-family:Murphy;
+    height: 100vh;
+    /* background:linear-gradient(135deg, #f6d5f7, #fbe9d7);  */
     /* margin: 0 auto;
     width: 75%; */
     /* border: 2px solid black; */
